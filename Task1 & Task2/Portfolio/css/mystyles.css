@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+  
+    font-family: 'Josefin Sans', sans-serif;
+}
+body
+{
+	background: #CCC;
+}
+
+	#Header a:hover
+	{
+		color: #FFF;
+
+	}
+	#bg-img
+	{
+		background: url('../img/artboard_1-100.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		min-height: 500px;
+	}
+	#About
+	{
+		margin-top:-200px;
+	
+	}
+	#About .fab
+	{
+		color: #FFF;
+      
+
+	}
+    #About .fab:hover
+    {
+
+      
+        color: #272727;
+        }
+     #About .container .intro a
+    {
+         background:
+        linear-gradient(
+        to right,
+       #ff9800 0%,
+        #ff9800 5px,
+        transparent 5px
+        );
+        background-repeat: repeat-x;
+        background-size: 100%;
+        color: #000;
+        padding-left: 10px;
+        text-decoration: none;
+     }
+     #About .container .intro a:hover
+     {
+        background:
+     linear-gradient(
+       to right,
+       #ff9800 0%,
+       #ff9800 5px,
+       transparent
+       );
+     }
+
+
+
+    #About span
+    {
+    	padding: 10px 20px 10px 20px;
+    	font-size: 1.2em;
+    }
+    #About hr
+    {
+    	border-width: 2px;
+    	margin-top: 6px;
+    }
+    
+    #About .btn 
+    {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline:none; 
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+#About .btn:hover 
+{
+    background-color: #3e8e41
+}
+
+#About .btn:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    
+
+
+		
+    #Skills span
+    {
+    	padding: 10px 20px 10px 20px;
+    	font-size: 1.3em;
+    }
+    #Skills hr
+    {
+    	border-width: 2px;
+    	margin-top: 5px;
+    }
+    #Skills .badge
+    {
+    	margin:5px;
+    	font-size: 1.1em;
+    }
+    #Experience span
+    {
+    	padding: 10px 20px 10px 20px;
+    	font-size: 1.3em;
+    }
+    #Experience hr
+    {
+    	border-width: 2px;
+    	margin-top: 6px;
+    }
+    #Experience .carousel-inner img 
+    {
+    width: 100%;
+    height: 100%;
+ 	}
+    #Experience .card
+    {
+        background: #8ca8c6;
+        opacity: 80%;
+        padding-bottom: 50px;
+    }
+    #Experience .container .head h1
+    {
+        color:#202435;
+    }
+    #Experience .thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0px 10px 10px 0px;
+    }
+    
+    #Experience .thumbnails img:hover {
+    border: 4px solid #00ccff;
+    }
+    
+    #Experience .preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    max-width: 800px;
+    width: 100%;
+
+    }
+
+ 	#Contact span
+ 	{
+ 		padding: 10px 20px 10px 20px;
+    	font-size: 1.3em;
+
+ 	}
+ 	#Contact hr
+ 	{
+ 		border-width: 2px;
+    	margin-top: 6px;
+ 	}
+    #Contact .button 
+    {
+        background-color: #e7e7e7;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    #Contact .button:hover
+     {
+        
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #Contact .button a:link
+    {
+        color: red;
+        text-decoration: none;
+
+    }
+    #Contact .button a:visited
+    {
+        color: hotpink;
+    }
+    #Contact .button a:hover
+    {
+        color: purple;
+        text-decoration: underline;
+        background-color: yellow;
+    }
+     #Contact .button a:active
+    {
+        color: blue;
+    }
+    
+
+
+    
+
+    /*#Contact .wrapper
+    {
+        
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+        width: 100%;
+        background: white;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254,236,164,1);
+    }
+    #Contact .wrapper h2
+    {
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform:uppercase;
+        letter-spacing: 3px;
+        color: #332902;
+    }
+    #Contact .wrapper .input_field
+    {
+        margin-bottom: 10px;
+
+    }
+   
+   
+
+    #Contact .wrapper .input_field input[type="text"],.wrapper textarea
+    {
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+    }
+    #Contact .wrapper textarea
+    {
+        height: 80px;
+        resize: none;
+    }
+
+    
+
+   
+    #Contact .wrapper .btn input 
+    {
+         background-color: white; 
+         margin-top: 15px;
+         padding: 10px;
+         width: 100%;
+         letter-spacing: 5px;
+         cursor: pointer;
+         color: #332902; 
+         border: 2px solid #fece0c;
+         border-radius: 25px;
+    
+    }    
+    #Contact .wrapper .btn input:hover
+    {
+        background-color: #fece0c;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        
+    }
+    #Contact .wrapper #error_message
+    {
+        margin-bottom: 20px;
+        padding: 0px;
+        background: #fe8b8e;
+        text-align: center;
+        font-size: 14px;
+        transition:all 0.5s ease;
+    }
+    #Contact .wrapper .input_field input[type="text"] input .invalid
+    {
+      border-color: #DD2C00;  
+    }*/
+    
+
+    #notify {
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 12px;
+        width: 100%;
+        color: #fff;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #notify.error {
+        background-color: #DD2C00;
+    }
+
+
+
+.floating-btn {
+    border-radius: 26.5px;
+    background-color: #001F61;
+    border: 1px solid #001F61;
+    box-shadow: 0 16px 22px -17px #03153B;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.floating-btn:hover {
+    background-color: #ffffff;
+    color: #001F61;
+}
+
+.floating-btn:focus {
+    outline: none;
+}
+.floating-text {
+    background-color: #001F61;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-family: 'Muli';
+    padding: 7px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 998;
+}
+
+.floating-text a {
+    color: #FF7500;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .social-panel-container.visible {
+        transform: translateX(0px);
+    }
+    
+    .floating-btn {
+        right: 10px;
+    }
+}

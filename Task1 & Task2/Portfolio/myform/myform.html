@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+      
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="myform.css">
+   
+   
+	<title>Contact Me Form</title>
+</head>
+    <body>
+        <form id="form">
+            <h2>Contact Me</h2>
+            <div  id="head"></div>
+              <div id="div1">
+      
+                <label for="name">Name</label>
+                <input name="name" type="text" placeholder="Name"  id="name"  pattern="[a-zA-Z][a-zA-Z ]{2,}" required >
+            </div>
+            <div>
+    
+                 <label for="email">E-mail</label>
+                <input name="email" type="text" placeholder="E-mail"  id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required  >
+            </div>
+                 <label for="phone">Phone Number</label>
+                <input name="phone" type="text" placeholder="Phone Number preferrably WhatsApp" id="phone" pattern="[6-9]{1}[0-9]{9}"  required > 
+          
+            <label>Profession:</label>
+            <select class="profession">
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>HR</option>
+                    <option>Marketing&Consulting</option>
+                    <option>IT & Services</option>
+                    <option>Enterpreneurship</option>
+                    <option>Other</option>
+             </select>
+            
+            <div>
+      
+                <label for="organization">Organization</label>
+                <input name="organization" type="text" placeholder="Organization"  id="organization"pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
+            </div>
+           
+                <label>Message:</label>
+                <textarea id="message" placeholder="Message" required ></textarea>
+
+            <button class="btn" type="submit" id="buttonsub">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+
+           
+        </form>
+    <script src="myform.js"></script>    
+    </body>
+    </html>

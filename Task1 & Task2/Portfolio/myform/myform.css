@@ -1,0 +1,124 @@
+html {
+        box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+            box-sizing: inherit;
+    }
+
+    body {
+        font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+        background-image:url('bg1.jpg');
+    }
+
+    h2
+    {
+        font-size: 35px;
+        margin-top: 0px;
+        text-align: center;
+        text-shadow: 2px 2px #B0BEC5;
+    }
+    form {
+        max-width: 450px;
+        margin-top: 60px;
+        margin-bottom: 65px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+        position: relative;
+        padding-top: 80px;
+        border:2px solid black;
+        border-radius: 5px;
+        background:url('bg3.jpg');
+
+
+        box-shadow: 5px 5px #aaa;
+    }
+    label,
+    input {
+            display: block;
+    }
+    label {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #B0BEC5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input {
+            width: 100%;
+            padding: 10px;
+            outline: 0;
+            border: 2px solid #B0BEC5;
+    }
+    textarea
+    {
+            width: 100%;
+            padding: 10px;
+            outline: 0;
+            border: 2px solid #B0BEC5;
+            resize: none;
+
+    }
+    select
+    {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #B0BEC5;
+    }
+    input.invalid {
+            border-color: #DD2C00;
+    }
+    button
+    {
+        margin-top: 10px;
+        width: ;
+        display: inline-block;
+
+    }
+    button:hover
+    {
+        border:1px solid;
+        border-color: black;
+        background: white;
+
+    }
+    /*#error_message
+    {
+        margin-bottom: 20px;
+        background: #fe8b8e;
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+        transition: all 0.5s ease;
+    }*/
+
+    #notify {
+        margin-left: auto;
+        margin-right: auto;
+       margin-top: 20px;
+        padding: 10px;
+        font-size: 12px;
+        max-width: 400px;
+        width: 100%;
+        color: #fff;
+        display: block;
+        top:0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        align-content: center;
+    }
+    #notify.error {
+        background-color: #DD2C00;
+    }
+    #notify.success
+    {
+        background-color: green;
+    }
+    
